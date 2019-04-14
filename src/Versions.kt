@@ -27,6 +27,7 @@ object Versions {
     val retrofit = "2.3.0"
     val slf4j = "1.7.25"
     val log4j2 = "2.11.1"
+    val ktor = "1.1.3"
     object apache {
         object commons {
             val commons = "3.6"
@@ -74,6 +75,15 @@ object Libraries {
     val mockk = "io.mockk:mockk:${Versions.mockk}"
     val bouncycastle = "org.bouncycastle:bcprov-jdk15on:${Versions.bouncycastle}"
     val slf4j = "org.slf4j:slf4j-api:${Versions.slf4j}"
+
+    object ktor {
+        object client {
+            val cio = "io.ktor:ktor-client-cio:$ktor"
+            val jsonjvm = "io.ktor:ktor-client-json-jvm:$ktor"
+            val gson = "io.ktor:ktor-client-gson:$ktor"
+            val loggingjvm = "io.ktor:ktor-client-logging-jvm:$ktor"
+        }
+    }
 
     object log4j {
         val log4j2 = "org.apache.logging.log4j:log4j-core:${Versions.log4j2}"
