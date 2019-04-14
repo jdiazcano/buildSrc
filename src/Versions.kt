@@ -23,6 +23,17 @@ object Versions {
     val kodein = "5.3.0"
     val gson = "2.8.5"
     val mockk = "1.8.9"
+    val bouncycastle = "1.58"
+    val retrofit = "2.3.0"
+    val slf4j = "1.7.25"
+    val log4j2 = "2.11.1"
+    object apache {
+        object commons {
+            val commons = "3.6"
+            val io = "2.5"
+        }
+
+    }
 }
 
 object Libraries {
@@ -61,6 +72,25 @@ object Libraries {
     val kodein = "org.kodein.di:kodein-di-generic-jvm:${Versions.kodein}"
     val gson = "com.google.code.gson:gson:${Versions.gson}"
     val mockk = "io.mockk:mockk:${Versions.mockk}"
+    val bouncycastle = "org.bouncycastle:bcprov-jdk15on:${Versions.bouncycastle}"
+    val slf4j = "org.slf4j:slf4j-api:${Versions.slf4j}"
+
+    object log4j {
+        val log4j2 = "org.apache.logging.log4j:log4j-core:${Versions.log4j2}"
+        val log4j2slf4j = "org.apache.logging.log4j:log4j-slf4j-impl:${Versions.log4j2}"
+    }
+
+    object apache {
+        object commons {
+            val lang = "org.apache.commons:commons-lang3:${Versions.apache.commons.commons}"
+            val io = "commons-io:commons-io:${Versions.apache.commons.io}"
+        }
+    }
+
+    object retrofit {
+        val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
+        val gson = "com.squareup.retrofit2:converter-gson:${Versions.retrofit}"
+    }
 
     object aws {
         val s3 = "com.amazonaws:aws-java-sdk-s3:${Versions.aws}"
