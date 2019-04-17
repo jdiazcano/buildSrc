@@ -76,7 +76,10 @@ object Libraries {
     val mockk = "io.mockk:mockk:${Versions.mockk}"
     val bouncycastle = "org.bouncycastle:bcprov-jdk15on:${Versions.bouncycastle}"
     val slf4j = "org.slf4j:slf4j-api:${Versions.slf4j}"
-    val kotlintest = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"
+    object kotlintest {
+        val core = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"
+        val junitrunner = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"
+    }
 
     object ktor {
         object client {
