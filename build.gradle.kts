@@ -2,6 +2,13 @@ plugins {
     `kotlin-dsl`
 }
 
-java.sourceSets["main"].java {
-    setSrcDirs(listOf("src"))
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+sourceSets.main {
+    java {
+        setSrcDirs(listOf("src"))
+    }
 }
