@@ -14,6 +14,11 @@ object Libraries {
             const val api = "org.jetbrains.spek:spek-api:${Versions.jetbrains.engine}"
             const val engine = "org.jetbrains.spek:spek-junit-platform-engine:${Versions.jetbrains.engine}"
         }
+
+        object script {
+            const val runtime = "org.jetbrains.kotlin:kotlin-script-runtime:${Versions.jetbrains.kotlin}"
+            const val annotations = "com.github.holgerbrandl:kscript-annotations:${Versions.kscriptannotation}"
+        }
     }
 
     object junit {
@@ -37,6 +42,8 @@ object Libraries {
     const val bouncycastle = "org.bouncycastle:bcprov-jdk15on:${Versions.bouncycastle}"
     const val slf4j = "org.slf4j:slf4j-api:${Versions.slf4j}"
     const val visui = "com.kotcrab.vis:vis-ui:${Versions.visui}"
+    const val picocli = "info.picocli:picocli:${Versions.picocli}"
+
     object kotlintest {
         const val core = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"
         const val junitrunner = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"

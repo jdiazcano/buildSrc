@@ -1,7 +1,6 @@
 object Versions {
-    const val kotlin: String = "1.3.0"
     object jetbrains {
-        const val kotlin = "1.2.71"
+        const val kotlin = "1.3.21"
         const val spek = "1.1.2"
         const val engine = "1.2.0"
     }
@@ -18,7 +17,7 @@ object Versions {
     const val logging = "1.5.4"
     const val libgdx = "1.9.8"
     const val libktx = "1.9.8-b5"
-    const val cfg4k = "0.9.0"
+    const val cfg4k = "0.9.3"
     const val rxkotlin = "2.2.0"
     const val kodein = "5.3.0"
     const val gson = "2.8.5"
@@ -30,6 +29,9 @@ object Versions {
     const val ktor = "1.1.3"
     const val kotlintest = "3.3.1"
     const val visui = "1.4.1"
+    const val kscriptannotation = "1.2"
+    const val picocli = "3.9.5"
+
     object apache {
         object commons {
             const val commons = "3.6"
