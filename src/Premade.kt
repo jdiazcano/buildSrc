@@ -20,8 +20,7 @@ object Premade {
     val libgdx = listOf(
             Libraries.libgdx.gdx,
             Libraries.libgdx.lwjgl3,
-            Libraries.libgdx.nativesDesktop,
-            Libraries.visui
+            Libraries.libgdx.nativesDesktop
     )
 
 }
