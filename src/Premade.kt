@@ -6,6 +6,11 @@ object Premade {
             Libraries.jetbrains.kotlin.stdlib
     )
 
+    val testing = listOf(
+            Libraries.kotlintest.core,
+            Libraries.kotlintest.junitrunner
+    )
+
     val logging = listOf(
             Libraries.logging,
             Libraries.log4j.log4j2,
@@ -27,3 +32,6 @@ object Premade {
 
 fun DependencyHandler.compileBatch(dependencyNotations: List<Any>): List<Dependency?> =
         dependencyNotations.map { add("compile", it) }
+
+fun DependencyHandler.testCompileBatch(dependencyNotations: List<Any>): List<Dependency?> =
+        dependencyNotations.map { add("testCompile", it) }

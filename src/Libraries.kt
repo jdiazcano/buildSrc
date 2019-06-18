@@ -79,6 +79,15 @@ object Libraries {
         const val s3 = "com.amazonaws:aws-java-sdk-s3:${Versions.aws}"
         const val sqs = "com.amazonaws:aws-java-sdk-sqs:${Versions.aws}"
         const val sns = "com.amazonaws:aws-java-sdk-sns:${Versions.aws}"
+        const val dynamodb = "com.amazonaws:aws-java-sdk-dynamodb:${Versions.aws}"
+        const val dynamodbLocal = "com.amazonaws:DynamoDBLocal:${Versions.aws}"
+    }
+
+    object awsv2 {
+        const val s3 = "software.amazon.awssdk:ec2:${Versions.awsv2}"
+        const val sqs = "software.amazon.awssdk:sqs:${Versions.awsv2}"
+        const val sns = "software.amazon.awssdk:sns:${Versions.awsv2}"
+        const val dynamodb = "software.amazon.awssdk:dynamodb:${Versions.awsv2}"
     }
 
     object libgdx {
