@@ -15,4 +15,5 @@ sourceSets.main {
 
 dependencies {
     compile("com.bladecoder.packr:packr:2.1")
+    compile("com.amazonaws:aws-java-sdk-s3:1.11.564")
 }

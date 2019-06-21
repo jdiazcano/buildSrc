@@ -5,6 +5,7 @@ object Versions {
         const val engine = "1.2.0"
     }
 
+    const val packr = "2.1"
     const val jtwig = "5.87.0.RELEASE"
     const val bytebuddy = "1.8.15"
     const val klaxon = "3.0.6"

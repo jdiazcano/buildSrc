@@ -27,6 +27,7 @@ object Libraries {
         const val params = "org.junit.jupiter:junit-jupiter-params:${Versions.junit}"
     }
 
+    const val packr = "com.bladecoder.packr:packr:${Versions.packr}"
     const val expekt = "com.winterbe:expekt:${Versions.expekt}"
     const val bytebuddy = "net.bytebuddy:byte-buddy:${Versions.bytebuddy}"
     const val typesafe = "com.typesafe:config:${Versions.typesafe}"
