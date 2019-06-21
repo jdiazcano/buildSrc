@@ -43,6 +43,7 @@ object Libraries {
     const val slf4j = "org.slf4j:slf4j-api:${Versions.slf4j}"
     const val visui = "com.kotcrab.vis:vis-ui:${Versions.visui}"
     const val picocli = "info.picocli:picocli:${Versions.picocli}"
+    const val jtwig = "org.jtwig:jtwig-core:${Versions.jtwig}"
 
     object kotlintest {
         const val core = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"

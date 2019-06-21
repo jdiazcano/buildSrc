@@ -4,6 +4,8 @@ object Versions {
         const val spek = "1.1.2"
         const val engine = "1.2.0"
     }
+
+    const val jtwig = "5.87.0.RELEASE"
     const val bytebuddy = "1.8.15"
     const val klaxon = "3.0.6"
     const val typesafe = "1.3.3"
