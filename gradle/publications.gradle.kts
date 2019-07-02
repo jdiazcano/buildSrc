@@ -1,3 +1,5 @@
+apply(plugin = "maven-publish")
+
 val Project.`sourceSets`: SourceSetContainer get() = extensions.getByName("sourceSets") as SourceSetContainer
 
 val sourcesJar by tasks.registering(Jar::class) {
