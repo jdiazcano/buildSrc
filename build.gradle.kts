@@ -2,16 +2,8 @@ plugins {
     `kotlin-dsl`
 }
 
-repositories {
-    mavenCentral()
-    jcenter()
-}
-
-sourceSets.main {
-    java {
-        setSrcDirs(listOf("src"))
-    }
-}
+apply(from = "gradle/sourcesets.gradle.kts")
+apply(from = "gradle/repositories.gradle.kts")
 
 dependencies {
     compile("com.bladecoder.packr:packr:2.1")
