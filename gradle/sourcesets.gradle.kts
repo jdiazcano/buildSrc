@@ -8,7 +8,7 @@ configure<SourceSetContainer> {
 configure<SourceSetContainer> {
     val main by getting
     main.resources {
-        setSrcDirs(listOf("src"))
+        setSrcDirs(listOf("res"))
     }
 }
 
@@ -22,6 +22,6 @@ configure<SourceSetContainer> {
 configure<SourceSetContainer> {
     val test by getting
     test.resources {
-        setSrcDirs(listOf("tstsrc"))
+        setSrcDirs(listOf("tstres"))
     }
 }

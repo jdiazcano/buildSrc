@@ -4,15 +4,15 @@ import org.gradle.kotlin.dsl.apply
 import kotlin.reflect.KProperty
 
 object Gradles {
-    val fatjar by gradle
-    val javaeight by gradle
-    val publications by gradle
-    val repositories by gradle
-    val sourcesets by gradle
+    val fatjar by Gradle
+    val javaeight by Gradle
+    val publications by Gradle
+    val repositories by Gradle
+    val sourcesets by Gradle
 
     val all = listOf(fatjar, javaeight, publications, repositories, sourcesets)
 
-    object gradle {
+    private object Gradle {
         operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
             return "buildSrc/gradle/${property.name}.gradle.kts"
         }
