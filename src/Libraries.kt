@@ -45,6 +45,7 @@ object Libraries {
     const val visui = "com.kotcrab.vis:vis-ui:${Versions.visui}"
     const val picocli = "info.picocli:picocli:${Versions.picocli}"
     const val jtwig = "org.jtwig:jtwig-core:${Versions.jtwig}"
+    const val clikt = "com.github.ajalt:clikt:${Versions.clikt}"
 
     object kotlintest {
         const val core = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"

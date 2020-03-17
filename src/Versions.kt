@@ -35,6 +35,8 @@ object Versions {
     const val visui = "1.4.1"
     const val kscriptannotation = "1.2"
     const val picocli = "3.9.5"
+    const val clikt = "2.5.0"
+    const val jacoco = "0.8.5"
 
     object apache {
         object commons {

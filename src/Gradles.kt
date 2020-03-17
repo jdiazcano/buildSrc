@@ -9,8 +9,9 @@ object Gradles {
     val publications by Gradle
     val repositories by Gradle
     val sourcesets by Gradle
+    val jacoco by Gradle
 
-    val all = listOf(fatjar, javaeight, publications, repositories, sourcesets)
+    val all = listOf(fatjar, javaeight, publications, repositories, sourcesets, jacoco)
 
     private object Gradle {
         operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
