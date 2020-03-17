@@ -1,6 +1,6 @@
 object Versions {
     object jetbrains {
-        const val kotlin = "1.3.21"
+        const val kotlin = "1.3.70"
         const val spek = "1.1.2"
         const val engine = "1.2.0"
     }

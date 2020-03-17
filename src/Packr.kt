@@ -2,16 +2,17 @@ import com.badlogicgames.packr.Packr
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
 import com.badlogicgames.packr.PackrConfig
+import org.gradle.api.tasks.Input
 import java.io.File
 
 open class PackrTask: DefaultTask() {
 
-    var jdk: String = "/Users/javier/.sdkman/candidates/java/8.0.212-amzn"
-    var executable: String = "Orion"
-    var classpath: List<String> = arrayListOf()
-    var mainClass: String = ""
-    var vmArgs: List<String> = arrayListOf()
-    var minimizeJre: String = "soft"
+    @Input var jdk: String = "/Users/javier/.sdkman/candidates/java/8.0.212-amzn"
+    @Input var executable: String = "Orion"
+    @Input var classpath: List<String> = arrayListOf()
+    @Input var mainClass: String = ""
+    @Input var vmArgs: List<String> = arrayListOf()
+    @Input var minimizeJre: String = "soft"
 
     private val platforms = arrayListOf(
             PackrConfig.Platform.MacOS
