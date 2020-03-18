@@ -47,6 +47,7 @@ object Libraries {
     const val picocli = "info.picocli:picocli:${Versions.picocli}"
     const val jtwig = "org.jtwig:jtwig-core:${Versions.jtwig}"
     const val clikt = "com.github.ajalt:clikt:${Versions.clikt}"
+    const val atrium = "ch.tutteli.atrium:atrium-fluent-en_GB:${Versions.atrium}"
 
     object kotlintest {
         const val core = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"

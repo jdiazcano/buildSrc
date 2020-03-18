@@ -10,6 +10,7 @@ object Gradles {
     val repositories by Gradle
     val sourcesets by Gradle
     val jacoco by Gradle
+    val experimental by Gradle
 
     val all = listOf(fatjar, javaeight, publications, repositories, sourcesets, jacoco)
 

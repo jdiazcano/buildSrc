@@ -38,6 +38,7 @@ object Versions {
     const val picocli = "3.9.5"
     const val clikt = "2.5.0"
     const val jacoco = "0.8.5"
+    const val atrium = "0.10.0"
 
     object apache {
         object commons {
