@@ -3,6 +3,7 @@ object Versions {
         const val kotlin = "1.3.70"
         const val spek = "1.1.2"
         const val engine = "1.2.0"
+        const val coroutines = "1.3.5"
     }
 
     const val packr = "2.1"

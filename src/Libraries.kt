@@ -8,6 +8,7 @@ object Libraries {
             const val stdlib = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.jetbrains.kotlin}"
             const val reflect = "org.jetbrains.kotlin:kotlin-reflect:${Versions.jetbrains.kotlin}"
             const val test = "org.jetbrains.kotlin:kotlin-test:${Versions.jetbrains.kotlin}"
+            const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.jetbrains.coroutines}"
         }
 
         object spek {
