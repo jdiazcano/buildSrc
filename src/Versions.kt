@@ -39,6 +39,7 @@ object Versions {
     const val clikt = "2.5.0"
     const val jacoco = "0.8.5"
     const val atrium = "0.10.0"
+    const val javacord = "3.0.5"
 
     object apache {
         object commons {

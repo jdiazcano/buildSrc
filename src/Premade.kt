@@ -30,8 +30,16 @@ object Premade {
 
 }
 
+@Deprecated("Now is implementation/api", ReplaceWith("implementationBatch"))
 fun DependencyHandler.compileBatch(dependencyNotations: List<Any>): List<Dependency?> =
         dependencyNotations.map { add("compile", it) }
 
+@Deprecated("Now is implementation/api", ReplaceWith("testImplementationBatch"))
 fun DependencyHandler.testCompileBatch(dependencyNotations: List<Any>): List<Dependency?> =
         dependencyNotations.map { add("testCompile", it) }
+
+fun DependencyHandler.implementationBatch(dependencyNotations: List<Any>): List<Dependency?> =
+        dependencyNotations.map { add("implementation", it) }
+
+fun DependencyHandler.testImplementationBatch(dependencyNotations: List<Any>): List<Dependency?> =
+        dependencyNotations.map { add("testImplementation", it) }

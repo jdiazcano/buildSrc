@@ -48,6 +48,7 @@ object Libraries {
     const val jtwig = "org.jtwig:jtwig-core:${Versions.jtwig}"
     const val clikt = "com.github.ajalt:clikt:${Versions.clikt}"
     const val atrium = "ch.tutteli.atrium:atrium-fluent-en_GB:${Versions.atrium}"
+    const val javacord = "org.javacord:javacord:${Versions.javacord}"
 
     object kotlintest {
         const val core = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"
