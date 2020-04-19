@@ -50,6 +50,16 @@ object Libraries {
     const val atrium = "ch.tutteli.atrium:atrium-fluent-en_GB:${Versions.atrium}"
     const val javacord = "org.javacord:javacord:${Versions.javacord}"
 
+
+    object sqldelight {
+        const val jvm = "com.squareup.sqldelight:sqlite-driver:${Versions.sqldelight}"
+    }
+
+    object klock {
+        const val common = "com.soywiz.korlibs.klock:klock:${Versions.klock}"
+        const val jvm = "com.soywiz.korlibs.klock:klock-jvm:${Versions.klock}"
+    }
+
     object kotlintest {
         const val core = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"
         const val junitrunner = "io.kotlintest:kotlintest-runner-junit5:${Versions.kotlintest}"
@@ -74,6 +84,8 @@ object Libraries {
             const val lang = "org.apache.commons:commons-lang3:${Versions.apache.commons.commons}"
             const val io = "commons-io:commons-io:${Versions.apache.commons.io}"
         }
+
+        const val pdfbox = "org.apache.pdfbox:pdfbox:${Versions.apache.pdfbox}"
     }
 
     object retrofit {

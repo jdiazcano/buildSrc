@@ -6,6 +6,8 @@ object Versions {
         const val coroutines = "1.3.5"
     }
 
+    const val klock = "1.10.4"
+    const val sqldelight = "1.3.0"
     const val packr = "2.1"
     const val jtwig = "5.87.0.RELEASE"
     const val bytebuddy = "1.8.15"
@@ -46,6 +48,8 @@ object Versions {
             const val commons = "3.6"
             const val io = "2.5"
         }
+
+        const val pdfbox = "2.0.19"
 
     }
 }
