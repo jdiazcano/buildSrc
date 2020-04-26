@@ -47,6 +47,7 @@ object Libraries {
     const val picocli = "info.picocli:picocli:${Versions.picocli}"
     const val jtwig = "org.jtwig:jtwig-core:${Versions.jtwig}"
     const val clikt = "com.github.ajalt:clikt:${Versions.clikt}"
+    const val cliktMultiplatform = "com.github.ajalt:clikt-multiplatform:${Versions.clikt}"
     const val atrium = "ch.tutteli.atrium:atrium-fluent-en_GB:${Versions.atrium}"
     const val javacord = "org.javacord:javacord:${Versions.javacord}"
 
@@ -67,10 +68,18 @@ object Libraries {
 
     object ktor {
         object client {
+            const val core = "io.ktor:ktor-client-core:${Versions.ktor}"
+            const val coreNative = "io.ktor:ktor-client-core-native:${Versions.ktor}"
+            const val curl = "io.ktor:ktor-client-curl:${Versions.ktor}"
             const val cio = "io.ktor:ktor-client-cio:${Versions.ktor}"
+            const val json = "io.ktor:ktor-client-json:${Versions.ktor}"
             const val jsonjvm = "io.ktor:ktor-client-json-jvm:${Versions.ktor}"
             const val gson = "io.ktor:ktor-client-gson:${Versions.ktor}"
+            const val jackson = "io.ktor:ktor-client-jackson:${Versions.ktor}"
             const val loggingjvm = "io.ktor:ktor-client-logging-jvm:${Versions.ktor}"
+            const val kotlinxSerialization = "io.ktor:ktor-client-serialization:${Versions.ktor}"
+            const val kotlinxSerializationJvm = "io.ktor:ktor-client-serialization-jvm:${Versions.ktor}"
+            const val kotlinxSerializationNative = "io.ktor:ktor-client-serialization-native:${Versions.ktor}"
         }
     }
 
