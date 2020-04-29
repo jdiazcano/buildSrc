@@ -11,6 +11,11 @@ object Libraries {
             const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.jetbrains.coroutines}"
         }
 
+        object serialization {
+            const val common = "org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:${Versions.jetbrains.serialization}"
+            const val native = "org.jetbrains.kotlinx:kotlinx-serialization-runtime-native:${Versions.jetbrains.serialization}"
+        }
+
         object spek {
             const val api = "org.jetbrains.spek:spek-api:${Versions.jetbrains.engine}"
             const val engine = "org.jetbrains.spek:spek-junit-platform-engine:${Versions.jetbrains.engine}"

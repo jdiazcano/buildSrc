@@ -1,5 +1,6 @@
 object Versions {
     object jetbrains {
+        const val serialization = "0.20.0"
         const val kotlin = "1.3.70"
         const val spek = "1.1.2"
         const val engine = "1.2.0"
