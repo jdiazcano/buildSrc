@@ -8,7 +8,8 @@ object Libraries {
             const val stdlib = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.jetbrains.kotlin}"
             const val reflect = "org.jetbrains.kotlin:kotlin-reflect:${Versions.jetbrains.kotlin}"
             const val test = "org.jetbrains.kotlin:kotlin-test:${Versions.jetbrains.kotlin}"
-            const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.jetbrains.coroutines}"
+            const val coroutinesCommon = "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:${Versions.jetbrains.coroutines}"
+            const val coroutinesNative = "org.jetbrains.kotlinx:kotlinx-coroutines-core-native:${Versions.jetbrains.coroutines}"
         }
 
         object serialization {
@@ -56,6 +57,9 @@ object Libraries {
     const val atrium = "ch.tutteli.atrium:atrium-fluent-en_GB:${Versions.atrium}"
     const val javacord = "org.javacord:javacord:${Versions.javacord}"
 
+    object korlibs {
+        const val korte = "com.soywiz.korlibs.korte:korte:${Versions.korlibs.korte}"
+    }
 
     object sqldelight {
         const val jvm = "com.squareup.sqldelight:sqlite-driver:${Versions.sqldelight}"

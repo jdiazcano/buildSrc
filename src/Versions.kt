@@ -44,6 +44,10 @@ object Versions {
     const val atrium = "0.10.0"
     const val javacord = "3.0.5"
 
+    object korlibs {
+        const val korte = "1.10.1"
+    }
+
     object apache {
         object commons {
             const val commons = "3.6"
