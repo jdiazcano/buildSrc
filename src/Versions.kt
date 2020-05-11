@@ -45,7 +45,7 @@ object Versions {
     const val javacord = "3.0.5"
 
     object korlibs {
-        const val korte = "1.10.1"
+        const val korte = "1.10.3"
     }
 
     object apache {
